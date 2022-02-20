@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.LinkZeldaPage">
+    <ContentPage.Content>
+          <ScrollView HeightRequest="1000">
+
+
+  
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkGreen" Padding="24" CornerRadius="0">
+            <Label Text="Link" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="Linkpro.jpg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Link is the main protagonist of the Legend of Zelda game series. He is not a single character, but a person that has appeared in numerous forms across the Legend of Zelda chronology. Link is known for being one of the three Triforce pieces, notably the Triforce of Courage, due to his brave and heroic personality. Link is known for being both bold and modest, qualities that make him deserving of the Triforce of Courage. In each game, Link is depicted to have come from modest origins and to have been bullied of picked on by others at times. Others, on the other hand, are won over by Link's tenacity in his journey, and he ultimately earns their respect." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="DarkGreen" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="LinkGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Link is a master of a vast range of weapons, instruments, and items. Swords, on the other hands, are his favoured weapon. Link's primary style of combat in each of his travels is sword fighting, which he generally does with a shield. Link revealed to have a strong gasp of hand-to-hand fighting in parts of his adventures, as well as superhuman strength. Link may also employ magic, as seen by titles such as 'A Link to the Past'." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+
+       </Label>
+
+
+        </StackLayout>
+
+
+          </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.AnimePage">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+         <Frame BackgroundColor="Orange" Padding="23" CornerRadius="12">
+            <Label Text="Anime Characters" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+        </Frame>
+
+         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+              
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <!--1 no row-->
+
+        <ImageButton Grid.Row="0"
+                Grid.Column = "0"
+                Padding="4"
+                Clicked="Goku_clicked"
+                Source="Goku.jpg"
+                Aspect="AspectFill"
+                CornerRadius="40"
+                 
+                />
+
+        <ImageButton Grid.Row="0"
+                Grid.Column = "1" 
+                Padding="4"
+                Source="Naruto.jpg"
+                Clicked="Naruto_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+              />
+
+
+             <ImageButton Grid.Row="0"
+                Grid.Column = "2" 
+                Padding="4"
+                Source="Luffy.jpg"
+                Clicked="Luffy_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+              />
+
+
+             <ImageButton Grid.Row="0"
+                Grid.Column = "3" 
+                Padding="4"
+                Source="Light.jpg"
+                Clicked="Light_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+              />
+
+
+             <!--2 no row-->
+
+
+             <ImageButton Grid.Row="1"
+                Grid.Column = "0" 
+                Padding="4"
+                Source="Ash.JPG"
+                Clicked="Ash_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+                            />
+
+                          
+             <ImageButton Grid.Row="1"
+                Grid.Column = "1" 
+                Padding="4"
+                Source="Kirito.jpg"
+                Clicked="Kirito_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+                          />
+
+
+              <ImageButton Grid.Row="1"
+                Grid.Column = "2" 
+                Padding="4"
+                Source="Ichigo.jpg"
+                Clicked="Ichigo_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+
+                           />
+
+
+                <ImageButton Grid.Row="1"
+                Grid.Column = "3" 
+                Padding="4"
+                Source="Shoto.JPG"
+                Clicked="Shoto_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+
+                             />
+
+
+             </Grid>
+
+            </StackLayout>
+                             
+    </ContentPage.Content>
+</ContentPage>
+
+   

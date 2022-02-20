@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.Megaman">
+    <ContentPage.Content>
+
+          <ScrollView HeightRequest="1000">
+
+
+  
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkBlue" Padding="24" CornerRadius="0">
+            <Label Text="X" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="MegamanPic.JPG"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="X is the main protagonist and title character of the Mega Man X video game series. X is an android who, together with his partner Zero, is a member of the Maverick Hunters, a special police unit entrusted with safeguarding humans and reploids from criminal reploids known as Mavericks. X would want nothing more than to be able to quit fighting because of his gentle and altruistic nature. X was initially classed as a B-Class Hunter due to his reluctance to violence, but he was susequently elevated to S-Class." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="DarkBlue" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="megagif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="As a reploid design and engineered by Dr. Thomas Light, X possesses strength, agility, endurance and speed that go beyond human capacity. He has the ability to shoot, dash, wall kick and air dash. Throughout the video games, X has the ability to enhance his arsenal with parts that were left by Dr. Light. In some instances, X has shown that he can draw on some unknown power within himself. This can be seen when Sigma stabbed X with his laser in the last chapter of 'The Day of Σ'. It is still uknown where or how X is able to summon this power." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+
+       </Label>
+
+
+        </StackLayout>
+
+
+          </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.ShotoPage">
+    <ContentPage.Content>
+
+
+        <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkBlue" Padding="24" CornerRadius="0">
+            <Label Text="Shoto Todoroki" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="ShotoPro.JPG"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Shoto Todoroki is the tritagonist of the My Hero Academia anime and manga series. He is a U.A. High School student studying to become a Pro Hero. He was admitted to U.A. on the basis of official recommendations. He is also Midoriya's second-best friend and the two are often seen competing against one another." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="DarkBlue" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="ShotoGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Shoto's Quirk provides him pyro and cryokinesis, enabling him to manipulate both fire and ice. Todoroki exhibits greater skill with the ice side of his Quirk, as he is able to instantly build massive structures of ice, despite his inability to handle it. He can utilise his power in a variety of ways, including freezing opponents and erecting ice pillars and shileds to repel blows."  FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

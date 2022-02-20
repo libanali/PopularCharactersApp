@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.AshKetchum">
+    <ContentPage.Content>
+
+          <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="CadetBlue" Padding="24" CornerRadius="0">
+            <Label Text="Ash Ketchum" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="AshPro.JPG"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Ash Ketchum is the primary protagonist of the Pokémon anime series. Being a 10-year-old Pokémon trainer from pallet town, he has always dreamed of being the greatest Pokémon Master in the world. Ash is the first character to be introduced in the series, and he is the victor of the Orange League and Kanto Battle Frontier, as well as the Alola region's Pokemon champion, having earned the title after the region's inaugural Pokémon League Conference." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="CadetBlue" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="AshGIF.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Ash possesses a wide range of abilities and capabilities. First and foremost, despite his youth, Ash is an extremely athletic and physically capable youngster. Due to his climbing abilities, Ash was sometimes dubbed a 'Human Mankey'. Ash can run, swing on vines, carry large weights, and swim in addition to climbing. Although is depends on the scenario, Ash can also withstand Pokémon attacks for a long time without receving too much harm. Further, while Ash is an excellent battler, he also has some performing skills as a result of competing in a few Pokémon Contests and witnessing his companions May and Dawn perform."  FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

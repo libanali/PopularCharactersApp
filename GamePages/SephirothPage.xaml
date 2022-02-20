@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.SephirothPage">
+    <ContentPage.Content>
+
+         <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkGray" Padding="24" CornerRadius="0">
+            <Label Text="Sephiroth" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="SephirothPro.jpg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Sephiroth is the main antagonist of Final Fantasy VII. Sephiroth was stronger, quicker and smarter than his contemporaries since he was injected with Jenova's cells before birth. Sephiroth was not permitted to be with his parents as he was a test subject. As such, he was nurtured by the Shinra Company, where he worked as an elite fighter in the SOLDIER unit. The SOLDIERs were proficient warriors and mecenaries, but Sephiroth was the most powerful." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="DarkGray" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="SephirothGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="With Superhuman physical power and innate combat aptitude, Sephiroth showed great fighting talent even as a child. Sephiroth's powers grew to incredible, unrivalled heights as an adult, and he was dubbed the greatest fighter in the story. As the most powerful fruit of the jenova project, Sephiroth's freakishly superhuman physical talents significantly transcend those of conventional SOLDIERs. In a battle of strength, he can swing quicker than the human eye and nonchalantly exert enough force even with one hand to overwhelm even other superhuman swordsmen such as Zack, Angeal and Cloud. Even when unarmed, Sephiroth has just enough power to throw a fully grown man through buildings with his attacks, and one of Sephiroth's tremendous displays of power is his capacity to subdue people without hesitation by impaling and then lifting them with his sword, or simply forcibly lifting them off the floor with his hands." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+
+
+  </ContentPage.Content>
+
+
+
+</ContentPage>

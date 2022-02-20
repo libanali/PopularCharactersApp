@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PopularCharacters.MainPage"
+             BackgroundColor="Lavender"
+             
+             >
+
+
+
+
+    <StackLayout>
+
+
+         <Frame BackgroundColor="MediumAquamarine" Padding="23" CornerRadius="12">
+            <Label Text="Video Game Characters" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+        </Frame>
+
+         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+              
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <!--1 no row-->
+
+        <ImageButton Grid.Row="0"
+                Grid.Column = "0"
+                Padding="4"
+                Clicked="Cloud_clicked"
+                Source="Cloud_Menu_Young.jpeg"
+                Aspect="AspectFill"
+                CornerRadius="40"
+                 
+                />
+
+        <ImageButton Grid.Row="0"
+                Grid.Column = "1" 
+                Padding="4"
+                Source="Sorakh2.jpeg"
+                Aspect="AspectFill"
+                Clicked="Sora_clicked"
+                CornerRadius="40"
+              />
+
+
+             <ImageButton Grid.Row="0"
+                Grid.Column = "2" 
+                Padding="4"
+                Source="Megaman.jpg"
+                Aspect="AspectFill"
+                Clicked="X_clicked"
+                CornerRadius="40"
+              />
+
+
+             <ImageButton Grid.Row="0"
+                Grid.Column = "3" 
+                Padding="4"
+                Source="Link.jpg"
+                Aspect="AspectFill"
+                Clicked="Link_clicked"
+                CornerRadius="40"
+              />
+
+
+             <!--2 no row-->
+
+
+             <ImageButton Grid.Row="1"
+                Grid.Column = "0" 
+                Padding="4"
+                Source="Mario.JPG"
+                Aspect="AspectFill"
+                Clicked="Mario_clicked"
+                CornerRadius="40"
+                            />
+
+                          
+             <ImageButton Grid.Row="1"
+                Grid.Column = "1" 
+                Padding="4"
+                Source="Sephiroth.jpg"
+                Aspect="AspectFill"
+                Clicked="Sephiroth_clicked"
+                CornerRadius="40"
+                          />
+
+
+              <ImageButton Grid.Row="1"
+                Grid.Column = "2" 
+                Padding="4"
+                Source="Sonic.jpg"
+                Aspect="AspectFill"
+                Clicked="Sonic_clicked"
+                CornerRadius="40"
+
+                           />
+
+
+                <ImageButton Grid.Row="1"
+                Grid.Column = "3" 
+                Padding="4"
+                Source="Crash.jpg"
+                Aspect="AspectFill"
+                Clicked="Crash_clicked"
+                CornerRadius="40"
+               
+              />
+
+             </Grid>
+
+
+           
+        
+
+        </StackLayout>
+
+
+  
+
+
+</ContentPage>

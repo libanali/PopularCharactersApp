@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.GokuPage">
+    <ContentPage.Content>
+
+         <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="Orange" Padding="24" CornerRadius="0">
+            <Label Text="Goku" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="GokuPro.JPG"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Goku is the central protagonist and hero of the Dragon Ball franchise that was written by Akira Toriyama. He is a descendant of the extinct Saiyan race. Goku was brought to the planet Earth as a newborn with the sole purpose of destroying it. As a baby, Goku was very difficult to deal with and was often violent towards his adoptive grandfather, Gohan. However, as a result from a brain injury that occured when he was a baby, Goku's vicious and destructive nature was likewise extinguished. Goku became kinder, happier, and more altruistic as a reuslt of his transformation, and has sworn to protect the Earth from any kind of threat." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="Orange" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="GokuGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Goku possesses a wide range of superhuman physical characteristics as a Saiyan and as a result of his hard and rigorous training. Goku has superhuman strength, speed, senses, endurance, and durability. Apart from his physical prowess, Goku has a strong grasp on his Ki, the inherent life energy that all living things possess, and he uses it to enhance his combat abilities. Goku can fly, sense ki, launch energy blasts, teleport and transfer energy. Furthermore, as part of his Saiyan biology, Goku has the ability to transform into a Super Saiyan. This transformation allows a Saiyan's performance to continuously improve in the face of hardship, allowing them to recover faster and progress at the same time." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+
+        
+    </ContentPage.Content>
+</ContentPage>

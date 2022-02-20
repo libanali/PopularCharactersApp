@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.LuffyPage">
+    <ContentPage.Content>
+
+
+           <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="Red" Padding="24" CornerRadius="0">
+            <Label Text="Monkey D. Luffy" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="LuffyPro.jpg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Monkey D. Luffy is the central protagonist of One Piece. He is the son of Monkey D. Dragon, a revolutionary known as 'The world's worst criminal', and the grandson of Monkey D. Garp, a massively strong Marine Vice Admiral who had cornered the late Pirate King on multiple occasions. He wants to locate One Piece and become the next Pirate King, so he established the straw hat pirates and set off on the high seas at the age of 17 in quest of the elusive treasure, setting off on a series of increasingly strange and deadly adventures." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="Red" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="LuffyGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Luffy is a physically powerful, swift, and tough character that fights barehanded. He ate the Gum-Gum Fruit when he was seven years old, giving him stretching abilities with which he has rown extremely inventive. His expertise and creative use of his rubber body has resulted in three distinct power ups that compliment his hand-to-hand combat style. By raising his blood pressure, Gear Second allows Luffy to become a lot faster. Gear third, inflates his steel-strong bones for a greater strike, and Gear Fourth combines his mastery of Haki with inflated rubbery muscles for an explosion boost in strength and speed." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

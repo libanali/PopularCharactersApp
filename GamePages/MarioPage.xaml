@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.MarioPage">
+    <ContentPage.Content>
+
+           <ScrollView HeightRequest="1000">
+
+
+  
+
+    <StackLayout>
+        <Frame BackgroundColor="Red" Padding="24" CornerRadius="0">
+            <Label Text="Mario" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="MarioPro.jpg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Mario is the primary character and protagonist of the Mario series, which has been around for a long time and is quite popular. Mario originally appeared in the arcade game 'Donkey Kong' as the protagonist. In most games, Mario is the hero that sets out on a quest to save Princess Peach from his arch-nemesis, Bowser, but he has also been shown racing and participating in sports with his younger twin brother, Luigi and others." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="Red" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="MarioGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Mario's main skill is jumping, which he uses to beat adversaries and activate useful items like question blocks and P switches. Mario can do a variety of acrobatic feats, including the long jump, backflip and spin jump. He's also been demostrated to have superhuman strength. Mario is able to carry and hurl enemies such as King Bomb-omb and Bowser, as demonstrated in Super Mario 64." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+
+       </Label>
+
+
+        </StackLayout>
+
+
+          </ScrollView>
+
+
+
+
+    </ContentPage.Content>
+</ContentPage>

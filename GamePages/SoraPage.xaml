@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.SoraPage">
+    <ContentPage.Content>
+
+
+        <ScrollView HeightRequest="1000">
+
+
+  
+
+    <StackLayout>
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+            <Label Text="Sora" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="sora.jpeg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Sora is the main protagonist of the Kingdom Hearts franchise. He is a bright and passionate young man from the Destiny Islands whose idyllic existence is upended when his house is destroyed by the Heartless, and who finds himself in possession of a strange weapon known as the Keyblade. As a hero selected to fight evil, Sora sets out on a journey to reconnect with his companions and save all other worlds from the same destiny as his own. " FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="Black" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="kh3gif.gif" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,24,30,0">
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Because he posssesses Ventus heart within his own, Sora may wield two Keyblades simultaneously using the Synch Blade ability. He may summon the second Keyblade himself when utilising Drive Forms, but he can also use someone else's Keyblade, like when Riku gives Sora his 'Way to the Dawn' Keyblade during their last confrontation with Xemnas. Sora may take Roxas's Keylades and utilise them telekinetically in combination with his own Keyblade during his fight with him." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        <Label FontSize="16" Padding="30,24,30,0">
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Sora is also an expert in a variety of basic magic spells such as Fire, Blizzard and Thunder, having learned them from Merlin. He may use these spells to weaken Heartless who are especially susceptible to specefic elements. He can also use the Cure spell to cure himself and his companions from injuries, replenish HP, and resurrect a party member who has fallen." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+        </StackLayout>
+
+
+          </ScrollView>
+
+
+    </ContentPage.Content>
+
+        
+</ContentPage>

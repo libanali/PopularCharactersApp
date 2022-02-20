@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.Welcoming_Page">
+    <ContentPage.Content>
+
+
+        <StackLayout>
+
+        <Label Text="Welcome to the Popular characters app! Here, you'll find information on the most influential and iconic characters from video games and anime! " FontAttributes="Bold" FontSize="33" VerticalOptions="Center"/>
+
+            <Grid>
+                 <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+              
+            </Grid.ColumnDefinitions>
+
+
+
+                 <ImageButton Grid.Row="0"
+                Grid.Column = "0"
+                Padding="4"
+                Source="VideoGamesIcon.jpg"
+                Clicked="VideoGames_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+                 
+                />
+
+        <ImageButton Grid.Row="0"
+                Grid.Column = "1" 
+                Padding="4"
+                Source="AnimeIcon.jpg"
+                Clicked="Anime_clicked"
+                Aspect="AspectFill"
+                CornerRadius="40"
+              />
+
+            </Grid>
+
+
+
+
+
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+
+
+</ContentPage>

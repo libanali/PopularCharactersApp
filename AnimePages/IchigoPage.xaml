@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.IchigoPage">
+    <ContentPage.Content>
+
+          <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkGray" Padding="24" CornerRadius="0">
+            <Label Text="Ichigo Kurosaki" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="IchigoPro.JPG"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Ichigo is the primary protagonist of the Bleach franchise. He is a shinigami who receives the abilities of a Shinigami from Rukia Kuchiki when he is a teenager with the capacity to sense spirits. He's a cross between Human, Soul Reaper, Quincy and Hollow." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="DarkGray" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="IchigoGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Ichigo's already amazing power is substantially amplified when he is in Soul Reaper form. With a single punch, he knocked out three Soul Reaper lieutenants, one of whom smashed on of their Zanpakut at the same time. Furthermore, in this form, Ichigo's endurance has also improved to the point that he can fight efficiently even after taking several injuries, and he can endure assaults that would easily kill a normal human."  FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

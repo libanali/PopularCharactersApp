@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.CrashPage">
+    <ContentPage.Content>
+
+         <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="Orange" Padding="24" CornerRadius="0">
+            <Label Text="Crash Bandicoot" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="CrashPro.jpg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Crash Bandicoot is the titular and main protagonist of the Crash Bandicoot series. Crash is considered to be a mutant eastern barred bandicoot who was genetically enhanced by the central antagonist of the series, Dr. Neo Cortex. For the duraiton of Crash's journey, Neo Cortex is usually Crash's arch-enemy and is constantly defeated by Crash so that peace may be maintained. He is regularly supported by his companions throughout his adventures. Companions such as Coco Bandicoot, Aku Aku and Crunch Bandicoot are often seen helping Crash on his adventures." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="Orange" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="CrashGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Crash has the ability to perform standard actions such as a jump, double jump, body slam and a spin attack. Throughout his adventures, Crash has the ability to collect power ups that can enhance his current abilities. One of which is the 'Super Charged Body Slam' ability. This ability allows Crash to perform a body slam that sends out a shockwave. 'Death Tornado Spin' is an ability that allows Crash to spin for an extended amount of time. Since this ability allows Crash to spin for an extended time, Crash can use this to his advantage and glide over large gaps." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>

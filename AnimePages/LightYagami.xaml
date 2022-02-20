@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.LightYagami">
+    <ContentPage.Content>
+
+        
+           <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="SandyBrown" Padding="24" CornerRadius="0">
+            <Label Text="Light Yagami" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="LightPro.jpg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Light Yagami is the main protagonist of the Death Notes series. Light is a brilliant student with one significant flaw: he has a severe God Complex. He despises the crimill aspect of society, but for the majority of his life, he has taken the 'what can you do mentality'. Then he discovers the Death Note left by the Shinigami Ryuk, which changed his life forever. He begins to kill criminals with the Death Note, believing that by doing so, he might terrify the world into being more law-fearing. In L, the enigmatic international investigator hired to investigate and establish the identity of the person responsible for the unexplained run of killings, he meets an equal." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="SandyBrown" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="LightGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="The Death Note is a notepad that Ryuk provided to Light Yagami in which he may write down names of individuals he wanrs to kill. The Death Note is a notepad that Ryuk provided to Light Yagami in which he may write down names of individuals he wants to kill. He also possesses a high level of intelligence, to the point that he can devise schemes that make him appear to be someone other than Kira." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.MyPage">
+    <ContentPage.Content>
+
+        <ScrollView HeightRequest="80000">
+
+
+  
+
+    <StackLayout>
+        <Frame Background="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Cloud Strife" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="CloudStrife.jpg"/>
+
+        <Label FontSize="21" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Cloud Strife is the main protagonist of Final Fantasy VII. At first, Cloud comes off as an arrogant and prideful swordsman who present himself to Avalanche as a former member of the prestigious warrior unit SOLIDER who has gone mercenary and is uninterested in anything other than his contracted duty at hand. Underneath his tough exterior hides a gentler, more kind person who is only trying to open up." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame Background="#2196F3" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="CloudStrifeAbilities.gif" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,24,30,0">
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Cloud possess superhuman strength, speed, stamina and agility as a result of Shinra's experimentation. With one hand, Cloud can effortlessly wield the massive Buster Sword and the much bigger Fusion Sword, and has demonstrated the capacity to cut through many metres of stone with a single stroke of his sword. His speed is somewhat above human threshold, as seen by the quickness with which he excecutes his combat methods. His endurance is so high that even while infected with Geostigma, he was able to compete on an euqal ground with the three relics of Sephiroth." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+        
+
+        </StackLayout>
+
+
+          </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>

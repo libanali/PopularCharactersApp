@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.SonicPage">
+    <ContentPage.Content>
+
+          <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="RoyalBlue" Padding="24" CornerRadius="0">
+            <Label Text="Sonic the Hedgehog" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="SonicPro.jpg"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Sonic the Hedgehog is the main protagonist of the Sonic the Hedgehog series and is Sega's most iconic character and mascot. He is an anthropomorphic hedgehog gifted with the ability to run faster that the speed of sound, hence the origin behind his name. Sonic also has lightning-speed reflexes. As implied by his species, Sonic has the ability to transform into a rolling ball, primarily to attack adverseries." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="RoyalBlue" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="SonicGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Although not properly trained, Sonic's years of combat have made him a highly skilled and proficient fighter. Throughout his adventures, Sonic has been able to defeat giant cyborgs, demons, and creatures, faced and defeated those with much more combat experience, and even defeated individuals who are also suitable for his ability. It is also noted that Sonic is getting stronger with every foe he encounters. Sonic's most praiseworthy attribute is his super speed. He has proven that he is unmatched when it comes to his speed, haivng been dubbed 'the fastest thing in the world'." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+
+        
+    </ContentPage.Content>
+</ContentPage>

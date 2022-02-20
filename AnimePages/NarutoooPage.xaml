@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PopularCharacters.NarutoooPage">
+    <ContentPage.Content>
+
+         <ScrollView HeightRequest="1000">
+
+
+    <StackLayout>
+        <Frame BackgroundColor="OrangeRed" Padding="24" CornerRadius="0">
+            <Label Text="Naruto Uzumaki" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Image Source="NarutoPro.JPG"/>
+
+        <Label FontSize="24" Padding="30,8,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Naruto Uzumaki is the central protagonist and hero of the Naruto franchise that was written by Masashi Kishimoto. When Naruto was born, his native village of Konoha was attacked by a nine-tailed demon fox who had been sealed in him since childhood to protect the village's residents. During his childhood, many around him mistrusted and despised him as a result of this. He, on the other hand, desires to be the Hokage, the village's strongest ninja and leader, and as the lowest-performing student in his class, he works hard to establish his value to his peers and fellow villagers. He is renowned for his catchphrase 'Dattebayo', and is linked to the majority of the other characters in the show via either friendship or competition." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+        </Label>
+
+        <Frame BackgroundColor="OrangeRed" Padding="17, 17, 17, 17" CornerRadius="0" >
+
+            <Label Text="Abilities" HorizontalTextAlignment="Center" TextColor="White" FontSize="23" Padding="30,7,30,0"/>
+        </Frame>
+
+        <Image Source="NarutoGif.GIF" IsAnimationPlaying="True" HeightRequest="250"/>
+
+       <Label FontSize="16" Padding="30,1,30,0">       
+           <Label.FormattedText>
+               <FormattedString>
+                   <FormattedString.Spans>
+                       <Span Text="Naruto is somewhat inexperienced in all forms of jutsu at first, especially in compared to his fellow classmates. Because of his failure with the cloning method, he finally learned the Shadow Clone Jutsu, which is a Jonin level skill. This is one of his trademark moves, and he employs it frequently throughout the series. Through his master Jiraiya, he finally learns the Rasengan, a technique devised by his Father. This technique uses a visible chakra ball that fits in the user's hand and is capable of delivery massive amounts of damage. Naruto uses this technique as one of his hallmark attacks, and he even builds on it using his Rasenshuriken." FontAttributes="Bold"/>
+                   </FormattedString.Spans>
+               </FormattedString>
+           </Label.FormattedText>
+
+       </Label>
+
+
+        </StackLayout>
+
+       </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>
